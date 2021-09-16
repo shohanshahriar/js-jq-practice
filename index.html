@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="vendor/wowjs/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>js/jquery</title>
+  </head>
+  <body>
+    <!-- example-1 -->
+   <div class="container">
+     <h1 class="text-info">1.click on the button to change text</h1>
+     <button type="button" class=" btn btn-secondary" onclick="textChange()">Chick here</button>
+     <h2 id="h2">The text will change</h2> 
+   </div>
+   <!-- example-2 -->
+   <div class="container">
+     <h1 class="text-info">2.click on the button to see repeated text</h1>
+     <button type="button" class=" btn btn-secondary" onclick="textRepeat()">Chick here</button>
+     <h2 id="hh"> </h2> 
+   </div>
+   <!-- example-3 -->
+   <div class="container">
+     <h1 class="text-info"> 3.click on the button to change the image</h1>
+     <button type="button" class="btn btn-secondary" onclick="imgChangeOne()">button-2</button>
+     <button type="button" class="btn btn-primary" onclick="imgChangeTwo()">button-1</button>
+     <br>
+     <img id="img" class="img-fluid"  src="image/portfolio-4.jpg" alt="">
+   </div>
+   <!-- ecample-4 -->
+   <div class="container">
+     <h2>4.Click on the button to see alert message</h2>
+     <button type="button" class="btn btn-danger" onclick="alertMessage()">Alert</button>
+   </div>
+   <!-- example-5 -->
+   <div class="container">
+     <h1>5.click on the button to see true or false(boolean)</h1>
+     <button type="button" class="btn btn-success" onclick="trueOrFalse()">Try it</button>
+     <p id="demo1"></p>
+   </div>
+   <!-- jquery example -->
+   <!-- counter example-1 -->
+   
+   <div class="container"> 
+    <h1>jquery example-1</h1>
+     <div class="row">
+       
+       <div class="col-lg-4">
+       
+         <div class="text-center">
+           <h1 class="counter">39999</h1>
+         </div>
+       </div>
+       <div class="col-lg-4">
+         <div class="text-center">
+           <h1 class="counter">39999</h1>
+         </div>
+       </div>
+       <div class="col-lg-4">
+         <div class="text-center">
+           <h1 class="counter">39999</h1>
+         </div>
+       </div>
+     </div>
+   </div>
+   <!-- wow jq example-2 -->
+<section class="mt-5 wow bounce">
+  <h1 class="text-center">ANIMATE.CSS</h1>
+</section>
+
+  <!-- JS links-->
+    <script src="js/jquery.min.js"></script>
+    <script src="vendor/wowjs/wow.min.js"></script>
+    <script src="vendor/counter/waypoints.min.js"></script>
+    <script src="vendor/counter/jquery.counterup.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
+    <script src="js/script.js"></script>
+  </body>
+</html>
