@@ -1,2 +1,2 @@
-# js-kq-practice
+# js-jq-practice
 Great repository 
